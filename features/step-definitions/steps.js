@@ -10,7 +10,7 @@ Given('I am on the ERP login page', async () => {
 });
 
 When('I enter my email and password', async () => {
-    await LoginPage.emailField.setValue('navami.sunil@people10.com');
+    await LoginPage.emailField.setValue('');
     await LoginPage.nextButtonEmail.click();
     await LoginPage.passwordField.setValue('');
     await LoginPage.nextButtonPassword.click();
